@@ -8,10 +8,10 @@ RyuZUConfigurationUtilities
 - spigot 1.16.5-R0.1-SNAPSHOT
  
 # Usage
-onEnableでRyuZUConfigurationUtilitiesをJavaPluginを渡してインスタンスを作成してください。
-yamlをいじるときはConfigurationWrapperをpathをStringで渡し、インスタンスを作成してください
-インスタンスを作ると、Yamlがある場合はファイルをloadし、ない場合はファイルを新規作成します。
-ConfigurationWrapperはYamlConfigurationを継承しているのでYamlConfigurationでできることはすべてできます。
+1. onEnableでRyuZUConfigurationUtilitiesをJavaPluginを渡してインスタンスを作成してください。
+2. yamlをいじるときはConfigurationWrapperをpathをStringで渡し、インスタンスを作成してください
+3. インスタンスを作ると、Yamlがある場合はファイルをloadし、ない場合はファイルを新規作成します。
+4. ConfigurationWrapperはYamlConfigurationを継承しているのでYamlConfigurationでできることはすべてできます。
  
 # Auther
 Y_RyuZU 
